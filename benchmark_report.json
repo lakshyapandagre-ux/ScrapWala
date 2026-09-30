@@ -1,0 +1,30 @@
+{
+  "model_name": "SUHAN-I/YOLO11 (YOLO11n Baseline)",
+  "architecture": "YOLO11n (Nano)",
+  "model_file": "yolo11n_waste.onnx",
+  "model_size_mb": "10.01 MB",
+  "parameter_count": "2.6M (YOLO11n standard)",
+  "input_resolution": "640x640",
+  "precision": "NOT MEASURED",
+  "recall": "NOT MEASURED",
+  "mAP50": "NOT MEASURED",
+  "mAP50_95": "NOT MEASURED",
+  "per_class_metrics": {
+    "cardboard": "NOT MEASURED",
+    "glass": "NOT MEASURED",
+    "metal": "NOT MEASURED",
+    "paper": "NOT MEASURED",
+    "plastic": "NOT MEASURED",
+    "trash": "NOT MEASURED"
+  },
+  "average_inference_time_ms": "NOT MEASURED",
+  "hardware_environment": "CPU / WebAssembly SIMD Browser runtime",
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ]
+}

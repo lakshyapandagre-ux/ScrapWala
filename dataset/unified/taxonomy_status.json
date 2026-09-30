@@ -1,0 +1,36 @@
+{
+  "full_target_taxonomy": [
+    "plastic",
+    "paper",
+    "cardboard",
+    "glass",
+    "metal",
+    "organic",
+    "e_waste",
+    "battery",
+    "textile",
+    "shoes",
+    "other_waste"
+  ],
+  "active_trained_classes": [
+    "plastic",
+    "paper",
+    "cardboard",
+    "glass",
+    "metal",
+    "other_waste"
+  ],
+  "status": {
+    "plastic": "ENABLED (Data available)",
+    "paper": "ENABLED (Data available)",
+    "cardboard": "ENABLED (Data available)",
+    "glass": "ENABLED (Data available)",
+    "metal": "ENABLED (Data available)",
+    "organic": "NOT TRAINED YET",
+    "e_waste": "NOT TRAINED YET",
+    "battery": "NOT TRAINED YET",
+    "textile": "NOT TRAINED YET",
+    "shoes": "NOT TRAINED YET",
+    "other_waste": "ENABLED (Data available)"
+  }
+}

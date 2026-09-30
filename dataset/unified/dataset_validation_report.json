@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "total_images": 0,
+  "total_labels": 0,
+  "missing_labels": [],
+  "missing_images": [],
+  "empty_labels": [],
+  "invalid_coordinates": [],
+  "invalid_class_ids": [],
+  "summary": {
+    "total_images": 0,
+    "total_labels": 0,
+    "issues_found": 0
+  }
+}

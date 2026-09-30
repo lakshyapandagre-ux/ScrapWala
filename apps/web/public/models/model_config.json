@@ -1,0 +1,33 @@
+{
+  "model_name": "Jeremy341/MIRA-AI (YOLO11n exp019)",
+  "version": "1.0.0",
+  "format": "ONNX",
+  "runtime": "onnxruntime-web",
+  "model_url": "/models/yolo11n_waste.onnx",
+  "input_width": 640,
+  "input_height": 640,
+  "confidence_threshold": 0.40,
+  "iou_threshold": 0.45,
+  "classes": [
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "material_mapping": {
+    "plastic": "pet_bottle",
+    "metal": "iron_scrap",
+    "paper": "newspaper",
+    "glass": "other_waste",
+    "trash": "other_waste"
+  },
+  "metrics": {
+    "map50": 0.9058,
+    "map50_95": 0.8215,
+    "precision": 0.872,
+    "recall": 0.846
+  },
+  "source": "https://huggingface.co/Jeremy341/MIRA-AI",
+  "license": "MIT / AGPL-3.0"
+}

@@ -1,0 +1,9 @@
+# ScrapWala Unified Waste Detection Dataset
+path: C:/Users/thean/OneDrive/Documents/ScrapWala/dataset/unified
+train: images/train
+val: images/val
+test: images/test
+
+# Classes actually present and verified
+nc: 6
+names: ['plastic', 'paper', 'cardboard', 'glass', 'metal', 'other_waste']

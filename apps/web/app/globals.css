@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand */
+  --sw-forest-900: #0B3D2E;
+  --sw-forest-800: #0F5A43;
+  --sw-green-700: #256618;
+  --sw-green-600: #2E7D1F;
+  --sw-green-100: #D9F5D0;
+  --sw-green-50: #EFFAEB;
+
+  /* Neutrals */
+  --sw-ink-900: #14181A;
+  --sw-ink-800: #262B29;
+  --sw-ink-600: #5B636B;
+  --sw-ink-400: #9AA1A9;
+  --sw-line: #E6E9E6;
+  --sw-bg: #F6F8F6;
+  --sw-card: #FFFFFF;
+
+  /* Semantic */
+  --sw-info-700: #0B4F9C;
+  --sw-info-50: #E6F0FB;
+  --sw-amber-500: #F5B301;
+  --sw-amber-50: #FFF4DC;
+  --sw-red-600: #C62828;
+  --sw-red-50: #FDE8E8;
+  --sw-gold: linear-gradient(135deg, #F5B301, #FFD666);
+
+  --font-primary: 'Outfit', 'Plus Jakarta Sans', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html, body {
+  background-color: #EBF2EC;
+  font-family: var(--font-primary);
+  color: var(--sw-ink-900);
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Hide horizontal scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Tabular nums for clean financial & weight display */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hindi text line-height adjustment */
+.lang-hi {
+  line-height: 1.6;
+}
+
+/* Native Android feel container */
+.app-container {
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: var(--sw-bg);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Touch friendly UI chrome */
+button, a {
+  user-select: none;
+}

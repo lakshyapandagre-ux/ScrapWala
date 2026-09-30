@@ -1,0 +1,9 @@
+from .lots import router as lots_router
+from .recyclers import router as recyclers_router
+from .handovers import router as handovers_router
+from .admin import router as admin_router
+from .sahayak import router as sahayak_router
+from .classification import router as classification_router
+from .voice import router as voice_router
+from .location import router as location_router
+from .collectors import router as collectors_router
